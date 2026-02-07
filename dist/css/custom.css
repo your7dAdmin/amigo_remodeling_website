@@ -1,1 +1,226 @@
-/* Your custom style here */
+.navbar-dark {
+    background-color: #ffffff !important;
+    clear: both;
+}
+
+.subnavbar-top .top-contact-info li>span {
+    font-size: 1rem;
+    font-family: "Inter", serif;
+    line-height: 1.4rem;
+    color: #000000;
+    margin-left: 3px;
+}
+
+
+.navbar .navbar-nav .dropdown .dropdown-expand::after {
+    font-family: elementskit !important;
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    color: #000000;
+    font-size: 11px;
+}
+
+.nav-link{
+    color: #000000;
+}
+.navbar .navbar-nav>li>a:hover{
+    color: #000000;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-expand {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #000000;
+}
+
+.i,  i[class*="icon-"] {
+    color: #0056b3 !important;
+}
+.text-primary, .bg-primary, i[class*="icon-"] {
+    color: #e5e5e5 !important;
+}
+button.dextheme-btn.btn-primary {
+    background-color: #d93025 !important;
+    border-color: #d93025 !important;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(29 30 115) !important;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #b70e1e !important;
+}
+
+.text-primary, .jumbotron h1 span, .jumbotron .h1 span, .dextheme-content-footer__bottom p {
+    --bs-text-opacity: 1;
+    color: #b70e1e !important;
+}
+
+/*.jumbotron h1 span, .jumbotron .h1 span, .dextheme-content-footer__bottom p {*/
+/*    --bs-text-opacity: 1;*/
+/*    color: #1d1e73 !important;*/
+/*}*/
+
+.dextheme-content-footer__bottom ul li a {
+    text-decoration: none;
+    padding: 0 1.5rem;
+    border-right: 1px solid  #b70e1e;
+    font-size: .8rem;
+}
+
+.dextheme-sub-title::before {
+    content: "\a";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background:  #b70e1e;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+
+.span.swiper-pagination-bullet-active {
+    background:  #b70e1e;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #b70e1e !important;
+    opacity: 1;
+}
+
+.dextheme-section-2 .project-completed .counter {
+    border: 3px solid #b70e1e;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: .9em;
+}
+
+.dextheme-progress-with-desc .dextheme-progress-desc h6, .dextheme-progress-with-desc .dextheme-progress-desc .h6 {
+    color: #e6e2e2;
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: .15em;
+}
+
+/* 1. Target the main progress path (The moving orange part) */
+.dextheme-progress-container svg path:last-child {
+    stroke: #b70e1e !important; /* Change to your specific Blue */
+}
+
+/* 2. Target the trail path (The dark brown/orange background circle) */
+.dextheme-progress-container svg path:first-child {
+    stroke: #a10715 !important; /* Change to a light gray for a clean look */
+}
+
+/* 3. Target the percentage text inside the circle (The "97%") */
+.progressbar-text {
+    color: #0056b3 !important;
+    font-weight: bold !important;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: rgb(0 0 0 / 87%);
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.image-widget::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(180deg, rgb(4, 60, 120) 0%, rgb(0, 86, 179) 100%);
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    width: auto;
+    height: auto;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+    transition: all .4s ease .2s;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    visibility: hidden;
+    box-sizing: border-box;
+}
+
+/* Change the icon color inside the column description blocks */
+.dextheme-column-description__icon i,
+.dextheme-column-description__icon [class^="icon-"],
+.dextheme-column-description__icon [class*=" icon-"] {
+    color: #0056b3 !important; /* Change this to your preferred Blue */
+}
+
+/* If the icon has a background shape that is orange, change it here */
+.dextheme-column-description__icon {
+    border-color: #0056b3 !important; /* Optional: matches the border to the icon */
+}
+
+.dextheme-btn.hover-outline-orange:hover{
+    border-color: #0056b3 !important;
+    color:  #a10715 !important;
+}
+
+
+.dextheme-btn .btn-primary .hover-outline-normal:hover{
+background: #0056b3 !important;
+    border-color: #0056b3 !important;
+    color:  #a10715 !important;
+}
+
+/* Back to Top Arrow Styling */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 999;
+    background: #0056b3; /* Your Theme Blue */
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #d93025; /* Your Theme Red */
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
